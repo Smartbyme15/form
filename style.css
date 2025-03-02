@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 10px;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.card :hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.color-1{
+   background-color:  rgb(219, 245, 180)!important ;
+   box-shadow: 4px 2px 4px 2px  rgb(114, 204, 114);
+}
+.color-2{
+    background-color: rgb(232, 240, 243) !important;
+    box-shadow: 4px 2px 4px 2px rgb(145, 145, 252);
+}
